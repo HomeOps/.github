@@ -56,7 +56,7 @@ Services that install straight from the Home Assistant add-on store.
 
 | Project | What it does | |
 |---|---|---|
-| **[esphome-ir-codegen](https://github.com/HomeOps/esphome-ir-codegen)** | HA add-on that turns open IR databases (**Flipper-IRDB**, HA `infrared-protocols`) into ESPHome `remote_transmitter` packages on demand — build a ~$20 universal remote with codes pulled live at compile time. | ![stars](https://img.shields.io/github/stars/HomeOps/esphome-ir-codegen?style=flat&label=%E2%98%85&color=f5c518) |
+| **[esphome-ir-codegen](https://github.com/HomeOps/esphome-ir-codegen)** | **The Logitech Harmony is dead — build your own.** A HA add-on that auto-generates ESPHome `remote_transmitter` packages from the open **[Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB)** (and HA `infrared-protocols`), so a ~$20 ESP32 becomes a Home-Assistant-driven universal remote. IR codes are pulled live at compile time — never hand-typed. | ![stars](https://img.shields.io/github/stars/HomeOps/esphome-ir-codegen?style=flat&label=%E2%98%85&color=f5c518) |
 
 <br>
 
