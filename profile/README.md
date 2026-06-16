@@ -46,8 +46,17 @@ Firmware and codegen for inexpensive ESP32 hardware that integrates over the nat
 | Project | What it does | |
 |---|---|---|
 | **[esphome-hass-panels](https://github.com/HomeOps/esphome-hass-panels)** | ESPHome firmware for a **Guition ESP32-S3 touchscreen** — swipe-navigable LVGL pages for an `alarm_control_panel` keypad and a `climate` thermostat, with PIN entry and state animations. | ![stars](https://img.shields.io/github/stars/HomeOps/esphome-hass-panels?style=flat&label=%E2%98%85&color=f5c518) |
-| **[esphome-ir-codegen](https://github.com/HomeOps/esphome-ir-codegen)** | HA add-on that turns open IR databases (**Flipper-IRDB**, HA `infrared-protocols`) into ESPHome `remote_transmitter` packages on demand — build a ~$20 universal remote with codes pulled live at compile time. | ![stars](https://img.shields.io/github/stars/HomeOps/esphome-ir-codegen?style=flat&label=%E2%98%85&color=f5c518) |
 | **[esphome-blekeyboard](https://github.com/HomeOps/esphome-blekeyboard)** | ESPHome component that turns an ESP32 into a **BLE HID keyboard** — recognized natively by Windows, Android, and iOS, with secure pairing and key-combo support. CI-gated with pinnable `release-please` tags. | ![stars](https://img.shields.io/github/stars/HomeOps/esphome-blekeyboard?style=flat&label=%E2%98%85&color=f5c518) |
+
+<br>
+
+## 📦 Add-ons
+
+Services that install straight from the Home Assistant add-on store.
+
+| Project | What it does | |
+|---|---|---|
+| **[esphome-ir-codegen](https://github.com/HomeOps/esphome-ir-codegen)** | HA add-on that turns open IR databases (**Flipper-IRDB**, HA `infrared-protocols`) into ESPHome `remote_transmitter` packages on demand — build a ~$20 universal remote with codes pulled live at compile time. | ![stars](https://img.shields.io/github/stars/HomeOps/esphome-ir-codegen?style=flat&label=%E2%98%85&color=f5c518) |
 
 <br>
 
@@ -66,11 +75,11 @@ Firmware and codegen for inexpensive ESP32 hardware that integrates over the nat
         │   native API  ·  HACS integrations  ·  add-on store  ·  REST  │
         └────────┬────────────────┬───────────────┬──────────────┬─────┘
                  │                │               │              │
-            XYE RS-485        CCM-15 / IP      LVGL panel     IR  ·  BLE
+            XYE RS-485        CCM-15 / IP      LVGL panel       IR / BLE
                  │                │               │              │
-          ESPHome-Midea       py-ccm15      esphome-hass    esphome-ir-
-             -XYE           HASS-Smart        -panels        codegen  ·
-                            -Climate                        -blekeyboard
+          ESPHome-Midea       py-ccm15      esphome-hass    esphome-blekeyboard
+             -XYE           HASS-Smart        -panels       esphome-ir-codegen*
+                            -Climate                        (*add-on)
 ```
 
 <br>
