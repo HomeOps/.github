@@ -51,7 +51,7 @@ Reverse-engineered, fully local control for Midea-style heat pumps and any clima
 |---|---|---|
 | **[ESPHome-Midea-XYE](https://github.com/HomeOps/ESPHome-Midea-XYE)** | ESPHome external component that drives Midea HVAC over the **XYE / CCM RS-485 bus** — a native HA climate entity with full mode, fan, and setpoint support. Includes [protocol docs](https://github.com/HomeOps/ESPHome-Midea-XYE/blob/main/esphome/components/midea_xye/PROTOCOL.md). | ![stars](https://img.shields.io/github/stars/HomeOps/ESPHome-Midea-XYE?style=flat&label=%E2%98%85&color=f5c518) |
 | **[py-ccm15](https://github.com/HomeOps/py-ccm15)** | Async Python library for the **Midea CCM-15** central controller — bridges the RS-485 VRF bus to TCP/IP and controls up to 64 indoor units over HTTP. `pip install py-ccm15`. | ![stars](https://img.shields.io/github/stars/HomeOps/py-ccm15?style=flat&label=%E2%98%85&color=f5c518) |
-| **[HASS-Smart-Climate](https://github.com/HomeOps/HASS-Smart-Climate)** | HACS integration that turns **any** climate device into an EcoBee-like smart thermostat — comfort presets, automatic heat/cool switching, and short-cycle protection. | ![stars](https://img.shields.io/github/stars/HomeOps/HASS-Smart-Climate?style=flat&label=%E2%98%85&color=f5c518) |
+| **[HASS-Smart-Climate](https://github.com/HomeOps/HASS-Smart-Climate)** | HACS integration that turns **any** climate device into an EcoBee-like smart thermostat — **areas with their own sensors per preset** (each preset follows the rooms that matter at that time), comfort presets, automatic heat/cool switching, and short-cycle protection. | ![stars](https://img.shields.io/github/stars/HomeOps/HASS-Smart-Climate?style=flat&label=%E2%98%85&color=f5c518) |
 
 <br>
 
