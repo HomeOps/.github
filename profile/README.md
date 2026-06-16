@@ -21,9 +21,25 @@ HVAC control, ESP32 devices, add-ons, and tooling. **No cloud required.**
 ---
 
 We build small, focused, **vendor-neutral** components that make hardware talk to Home
-Assistant over local protocols — RS-485, BLE, IR, GSM — and the tooling to ship and
+Assistant over local protocols — RS-485, BLE, IR — and the tooling to ship and
 operate them. Everything here runs on your own network and is wired to HA through the
 native API, HACS, or the add-on store.
+
+<br>
+
+## 🎬 Spotlight — an open Logitech Harmony replacement
+
+Harmony is dead. HomeOps is rebuilding the universal-remote experience from local,
+open building blocks — no cloud, no discontinued hub:
+
+- **📡 IR for legacy gear** — [`esphome-ir-codegen`](https://github.com/HomeOps/esphome-ir-codegen)
+  generates ESPHome IR packages straight from the [Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB):
+  TVs, AV receivers, soundbars, and anything with an IR window.
+- **🔵 BLE for modern devices** — [`esphome-blekeyboard`](https://github.com/HomeOps/esphome-blekeyboard)
+  drives Android TV, streaming sticks, and PCs as a native Bluetooth keyboard.
+- **🎚️ Activities** — *coming soon:* a Home Assistant integration that ties these into
+  Harmony-style **Activities** ("Watch TV", "Play Movie") — one tap sets every device,
+  input, and volume.
 
 <br>
 
