@@ -4,6 +4,8 @@
 
 ### Open-source building blocks for a local-first smart home
 
+***HomeOps*** *= **DevOps**, but for your home.*
+
 Practical, self-hosted home automation built on
 **[Home Assistant](https://www.home-assistant.io/)** + **[ESPHome](https://esphome.io/)** —
 HVAC control, ESP32 devices, add-ons, and tooling. **No cloud required.**
@@ -37,9 +39,11 @@ open building blocks — no cloud, no discontinued hub:
   TVs, AV receivers, soundbars, and anything with an IR window.
 - **🔵 BLE for modern devices** — [`esphome-blekeyboard`](https://github.com/HomeOps/esphome-blekeyboard)
   drives Android TV, streaming sticks, and PCs as a native Bluetooth keyboard.
-- **🎚️ Activities** — *coming soon:* a Home Assistant integration that ties these into
-  Harmony-style **Activities** ("Watch TV", "Play Movie") — one tap sets every device,
-  input, and volume.
+- **🎼 Activities** — [**Concerto**](https://github.com/HomeOps/concerto) *(new)* is the
+  Home Assistant integration that **conducts** the pieces above into Harmony-style
+  **Activities** ("Watch TV", "Play Movie") — one tap sets every device, input, and
+  volume. Input-agnostic (dashboard, a printed ESP remote, voice), driver-pluggable
+  (IR · BLE · native), and all software — no €279 remote.
 
 <br>
 
@@ -111,5 +115,9 @@ hardware, on your own network.
 <br>
 
 *Local-first. Vendor-neutral. Yours to own.*
+
+<br>
+
+<sub>**HomeOps™** and **Concerto™** are trademarks of HomeOps. Code is open source under each repository's license; the names are not — a modified fork of a trademarked project must be renamed.</sub>
 
 </div>
